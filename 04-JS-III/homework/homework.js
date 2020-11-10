@@ -53,9 +53,10 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var string = '';
-  for (i=0 ; i < palabras.length ; i++) {
+  for (i=0 ; i < palabras.length - 1 ; i++) {
     string = string + palabras[i] + " " 
   }
+  string = string + palabras[palabras.length -1];
   return string;
 }
 

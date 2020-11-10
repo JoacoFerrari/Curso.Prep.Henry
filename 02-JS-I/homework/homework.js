@@ -122,7 +122,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 !=== 0) {
+  if (num % 2 !== 0) {
     return true;
   }
   return false;
@@ -132,50 +132,66 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  var cuadrado = math.pow(num,2);
+  return cuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  var cubo = math.pow(num,3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  var elevado = math.pow(num,exponent);
+  return elevado;
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
+  var redondeo = math.round(num);
+  return redondeo;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
+  var redarriba = math.ceil(num);
+  return redarriba;
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var string = str + "!";
+  return string;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  var string = nombre + " " + apellido;
+  return string;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+var string = "Hola " + nombre + "!";
+return string;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
+  var area = alto * ancho;
+  return area;
 }
 
 

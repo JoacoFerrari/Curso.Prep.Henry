@@ -69,12 +69,12 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   if (numero % 3 === 0 && numero % 5 === 0) {
     return 'fizzbuzz';
-  } else if (numero % 3 ) {
+  } else if (numero % 3 === 0 ) {
     return 'fizz';
-  } else if (numero % 5 ) {
+  } else if (numero % 5 === 0 ) {
     return 'buzz';
   }
-  return numero
+  return numero;
 }
 
 function esPrimo(numero) {

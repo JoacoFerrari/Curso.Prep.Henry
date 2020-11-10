@@ -43,7 +43,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  var resta = y - x;
+  var resta = x - y;
   return resta;
 }
 
@@ -132,34 +132,34 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadrado = math.pow(num,2);
+  var cuadrado = Math.pow(num,2);
   return cuadrado;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var cubo = math.pow(num,3);
+  var cubo = Math.pow(num,3);
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var elevado = math.pow(num,exponent);
+  var elevado = Math.pow(num,exponent);
   return elevado;
 }
 
 function redondearNumero(num) {
   // Redondea "num" y devuélvelo
   // Tu código:
-  var redondeo = math.round(num);
+  var redondeo = Math.round(num);
   return redondeo;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
-  var redarriba = math.ceil(num);
+  var redarriba = Math.ceil(num);
   return redarriba;
 }
 

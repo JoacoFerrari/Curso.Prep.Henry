@@ -53,8 +53,8 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   var string = '';
-  for (i=0 ; i < array.length ; i++) {
-    string = array[i] + " "
+  for (i=0 ; i < palabras.length ; i++) {
+    string = palabras[i] + " "
   }
   return string;
 }
@@ -111,11 +111,6 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  if (multiplicarArgumentos.length === 0) {
-    return 0;
-  } else if (multiplicarArgumentos.length === 1) {
-    return arguments;
-  }
   var arg = [arguments];
   var mult = arg[0];
   for (i=1 ; i < arg.length ; i++) {

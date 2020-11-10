@@ -112,10 +112,15 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-  var arg = [arguments];
-  var mult = arg[0];
-  for (i=1 ; i < arg.length ; i++) {
-    mult = mult * arg[i];
+  if (arguments.length === 0) {
+    return 0;
+  } else if (arguments.length === 1) {
+    return arguments;
+  }
+  var len = arguments.length;
+  var mult = arguments[0];
+  for ( i=1; i < len ; i++) {
+    mult = mult * arguments[i];
   }
   return mult;
 }
